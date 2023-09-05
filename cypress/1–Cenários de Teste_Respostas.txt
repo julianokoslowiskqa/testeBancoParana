@@ -8,12 +8,13 @@ Como QA eu iniciaria a estratégia de testes com algumas ações iniciais.
 2.Quais abordagens de teste você consideraria?
 Resposta: Dado ao contexto em que está sendo mapeado, buscaria efetuar abordagens iniciais a seguir:
 1.Abordaria a prática "Shif-Left Testing”" que é, pesando em etapas de desenvolvimento “deslocar as atividades de teste para a esquerda" significa que os testes iniciam mais cedo e duram todo o ciclo de vida do desenvolvimento do software.
-
-
-
+2.Abordaria um "teste de Contrato" após as primeiras documentações/informações adquiridas pelo time.
+3.Dados ao alto volume de transações esse projeto é impressindível teste não funcionais de performançe desempenho e carga como (Fumaça,Pico,Cargae e Stress).
 
 3.Como você trabalharia com diferentes tipos/níveis de teste?
 Resposta:
+1.Usaria referencia no conceito de "Piramide de teste" com todos os seus níveis, abordando/incentivando execução de testes unitários, componetes e2e e etc ..buscando o máximo de cobertura em todas as camadas (APIS, microserviçoes, componentes e o próprio website).
+2.Utilizaria técnicas/tipos de testes como: analise de valor limítrofe, partição de equivalência, permutação, regressivos, confirmação,validação etc..
 
 
 
