@@ -29,4 +29,6 @@ Resposta: para consegur aplicar/fomentar qualidade em toda fase de desenvolvimen
 7.Gerenciamento de teste: Utilizaria Azure, Jira, TestLink, cadastrar/gerenciar os testes, podendo ser escrito no formato procedural ou gherkin.
 
 5.Como você se imagina atuando nessa equipe?
-Resposta:
+Resposta: 
+1.Um QA altamente presente, proativo e detalhista. 
+2.Ser referência e guardião da qualidade, ser o Guardião da qualidade, atuando em todas as etapas do desenvolvimento.
