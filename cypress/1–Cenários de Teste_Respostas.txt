@@ -15,16 +15,18 @@ Resposta: Dado ao contexto em que está sendo mapeado, buscaria efetuar abordage
 Resposta:
 1.Usaria referencia no conceito de "Piramide de teste" com todos os seus níveis, abordando/incentivando execução de testes unitários, componetes e2e e etc ..buscando o máximo de cobertura em todas as camadas (APIS, microserviçoes, componentes e o próprio website).
 2.Utilizaria técnicas/tipos de testes como: analise de valor limítrofe, partição de equivalência, permutação, regressivos, confirmação,validação etc..
-
-
+3.Testes automáticos em cada camada do software com maior cobertura possível.
 
 
 4. Quais ferramentas você consideraria usar?
-Resposta:
-
-
-
-
+Resposta: para consegur aplicar/fomentar qualidade em toda fase de desenvolvimento consideraria o uso das seguintes ferramentas por camadas/níveis.
+1.Testes Unitário: Linguagem Java, usaria o Junit, Wiremoc para testes de Mokcks, Sonar para monitorar o percentual de cobertua dos testes unitários. Essas ferramentas entram como sugestão, a decisão final seria feita pelo time de desenvolvimento.
+2.Testes Funcionais(BackEnd): utilizaria Postman, Swagger e ou Insomnia para fazer as requisições e testes funcionaisdas APIS.
+3.Testes Automatizados (BackEnd): para Java utilizaria (junit+restassured) para testes de API rest, em Javascript o próprio cypress, ou também o postman.
+4.Testes Automáticos(Frontend):Lingugem Java utilizario o Selenium Webdrive, o Cypress e também Docker como recurso de testes em ambientes estáveis.
+5. CI/CD: utilizaria o Jenkins, githubactions ou azureDevops, na construção das pipelines e testes nos ambientes clouds e esteira.
+6.Teste de performançe: utilizaroa o Jmeter ou o K6 para promover testes de desempenho nas apis, ou grafana também.
+7.Gerenciamento de teste: Utilizaria Azure, Jira, TestLink, cadastrar/gerenciar os testes, podendo ser escrito no formato procedural ou gherkin.
 
 5.Como você se imagina atuando nessa equipe?
 Resposta:
