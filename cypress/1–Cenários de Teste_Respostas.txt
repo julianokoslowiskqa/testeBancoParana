@@ -1,0 +1,29 @@
+1.Dado esse cenário, como você iniciaria uma estratégia de teste?
+Como QA eu iniciaria a estratégia de testes com algumas ações iniciais.
+    1. Entendimento do Projeto: Primeiro, é fundamental compreender bem o projeto, seus objetivos, escopo, público-alvo, e suas possíveis integrações.
+    Neste caso como QA me aproximaria o máximo dos stakeholders(imobiliárias, clientes e bancos), equipes de desenvolvimento, arquitetos etc..com o objetivo de extratir o máximo 
+    de informações que embasem o início de uma estratégia dos testes.
+   
+
+2.Quais abordagens de teste você consideraria?
+Resposta: Dado ao contexto em que está sendo mapeado, buscaria efetuar abordagens iniciais a seguir:
+1.Abordaria a prática "Shif-Left Testing”" que é, pesando em etapas de desenvolvimento “deslocar as atividades de teste para a esquerda" significa que os testes iniciam mais cedo e duram todo o ciclo de vida do desenvolvimento do software.
+
+
+
+
+3.Como você trabalharia com diferentes tipos/níveis de teste?
+Resposta:
+
+
+
+
+4. Quais ferramentas você consideraria usar?
+Resposta:
+
+
+
+
+
+5.Como você se imagina atuando nessa equipe?
+Resposta:
