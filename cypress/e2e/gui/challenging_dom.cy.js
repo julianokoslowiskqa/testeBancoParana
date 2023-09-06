@@ -2,7 +2,8 @@
 
 describe('CT01_', () => {
   it('acessa pagina inicial', () => {
-    cy.acessaPagina()
+    cy.acessaPagina()  
+    cy.clicarbotoes()  
   })
 })
 

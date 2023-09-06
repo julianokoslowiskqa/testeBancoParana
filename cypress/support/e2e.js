@@ -1,5 +1,2 @@
 import './gui_commands'
-Cypress.on('uncaught:exception', (err, runnable) => {
- 
-    return false
-  })
+import './api_commands'
