@@ -1,43 +1,29 @@
 /// <reference types="Cypress" />
 
-
-
-Cypress.Commands.add('acessaPagina', () => {
-  cy.visit('/challenging_dom')
- 
-})
-
-
-Cypress.Commands.add('clicarbotoes', () => {
+Cypress.Commands.add('clickbuttons', () => {
   cy
   .get('.button')
   .not('.alert,.success')
+  .click()
 
   cy
   .get('.button')
-  .filter('.alert') 
+  .filter('.alert')
+  .click()
 
   cy
   .get('.button')
   .filter('.success')
-
-//cy.get('#\37 b6c2160-2ee6-013c-9447-3e264f052d07')//botão azul
-
+  .click()
 })
-//cy.get('#\39 8693460-2ede-013c-42eb-3e264f052d07') vermelho
-//cy.get('#ea36cca1-2ede-013c-4314-3e264f052d07') verde
 
-Cypress.Commands.add('editDelete', () => {
- // cy.get('[data-test=[href="#edit"]').click()
-  //  .should('be.visible')
+//Função personalizada para clicar no botão "edit" em uma linha específica
+Cypress.Commands.add("clickEditButtonInRow", (rowIndex) => {
+  cy.get('tr').eq(rowIndex).contains('edit').click();
+});
 
- // cy.get(':nth-child(1) > :nth-child(7) > [href="#edit"]').click()
- //   .should('be.visible')
+//Função personalizada para clicar no botão "delete" em uma linha específica
 
- // cy.get(':nth-child(1) > :nth-child(7) > [href="#delete"]')
- //    .should('be.visible')
-
-//cy.get(".large-10")
-      //.eq(1) // Pega a segunda célula (índice 1)
-      //.should("contain", "Apeirian2")  // Verifique o conteúdo da célula
-})
+Cypress.Commands.add("clickDeleteButtonInRow", (rowIndex) => {
+  cy.get('tbody tr').eq(rowIndex).contains('delete').click();
+});
