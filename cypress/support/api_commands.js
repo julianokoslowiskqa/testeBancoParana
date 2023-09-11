@@ -25,6 +25,28 @@ Cypress.Commands.add('createUser', (userData) => {
   });
 
 
+  Cypress.Commands.add('updateUser', (userId, updatedUserData) => {
+    cy.api({
+      method: 'PUT',
+      url: `${API_URL}/2`,
+      body: updatedUserData,
+    });
+  });
+
+
+  Cypress.Commands.add('deleteUser', (userId) => {
+    // Envie uma solicitação DELETE para o endpoint com o ID do usuário
+    cy.api({
+      method: 'DELETE',
+      url: `${API_URL}/2`
+    }).then((response) => {
+      // Verifique se a solicitação foi bem-sucedida (status 200)
+      expect(response.status).to.equal(200);
+    });
+  });
+  
+
+
 
 
   
