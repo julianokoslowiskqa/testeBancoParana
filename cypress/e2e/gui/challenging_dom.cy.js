@@ -4,7 +4,7 @@ describe('Primeira parte do desafio', () => {
   beforeEach(() => {
     cy.visit('/challenging_dom')})
 
-  it('efetuar u m clique em todos os 3 botões apresentados em tela.', () =>{
+  it('efetuar um clique em todos os 3 botões apresentados em tela.', () =>{
     cy.clickbuttons()   
   })  
 
