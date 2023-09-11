@@ -16,4 +16,19 @@ Cypress.Commands.add("customGetUsers", () => {
 })
 
 
+Cypress.Commands.add('createUser', (userData) => {    
+    cy.api({
+      method: 'POST',
+      url: `${API_URL}`,
+      body: userData,
+    });
+  });
+
+
+
+
+  
+  
+
+
   
