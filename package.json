@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:report": "cypress run --record --key 8d966a97-4cd3-4304-9b21-4adf417dd0b9"
+    "cypress:report": "cypress run --record --key c253e6da-817f-446e-a601-1a6c11884474"
+    
   },
   "keywords": [],
   "author": "Juliano Koslowisk",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^10.11.0"
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "cypress-plugin-api": "^2.11.1"
   }
 }

@@ -26,7 +26,6 @@ Cypress.Commands.add("clickEditButtonInRow", (rowIndex) => {
 });
 
 //Função personalizada para clicar no botão "delete" em uma linha específica
-
 Cypress.Commands.add("clickDeleteButtonInRow", (rowIndex) => {
   cy.get('tbody tr').eq(rowIndex).contains('delete').click();
 });
