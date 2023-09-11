@@ -31,4 +31,4 @@ Resposta: para consegur aplicar/fomentar qualidade em toda fase de desenvolvimen
 5.Como você se imagina atuando nessa equipe?
 Resposta: 
 1.Um QA altamente presente, proativo e detalhista. 
-2.Ser referência e guardião da qualidade, ser o Guardião da qualidade, atuando em todas as etapas do desenvolvimento.
+2.Ser referência e guardião da qualidade, atuando em todas as etapas do desenvolvimento desde a concepção dos requisitos até a entrega do cliente.

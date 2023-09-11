@@ -43,14 +43,4 @@ Cypress.Commands.add('createUser', (userData) => {
       // Verifique se a solicitação foi bem-sucedida (status 200)
       expect(response.status).to.equal(200);
     });
-  });
-  
-
-
-
-
-  
-  
-
-
-  
+  });  

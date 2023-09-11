@@ -24,16 +24,12 @@ Este projeto é uma estrutura de teste automatizado com o objetivo feito para te
 ## Verificar o report gerado dos testes
 * Execute o comando `npm run cypress:report` no seu prompt de comando. Executará os testes localmente em modo headless. E irá exportar os relatórios para nuvem, para visualizar o histórico das execuções entre no link a seguir.
 
-* `Relatório Cloud `[Link do relatório](https://cloud.cypress.io/projects/vjrgft/runs)
+* `Relatório Cloud `[Link do relatório](https://cloud.cypress.io/projects/9cpkcx/runs)
 
 * Dentro do repositório na aba "Actions" foi feito a configuração CI/CD dos testes, usando paralelismo (executando os testes simultaneamente em "três" navegadores), a cada atualização de código essa esteira será ativada.
 
 ### Observações
-
-1.Há um arquivo contendo  anotações "observações.txt", que descreve possíveis erros/ou comportamentos inesperados.
-2.O código foi feito para ter aparência do Gherkin. 
-
-3.Não foi usado plugin de cucumber.
+Foi usadi o plugin "cypress-api" que mostra com maior clareza quais requisições foram feitas nos testes de apis
 
 ## Autor
 Juliano Koslowisk Martins dos Reis
