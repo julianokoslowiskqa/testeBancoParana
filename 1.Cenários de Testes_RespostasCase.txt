@@ -1,7 +1,7 @@
 ##CENÁRIOS INICIAIS A SER CONSIDERADOS DO CASE##
 Funcionalidade: Compra de Imóveis Online
 
-  Contexto: Testar o sistema em todas as camadas (Website,Micriserviçoes e APIS) para realizar uma compra de imóvel.
+  Contexto: Testar o sistema em todas as camadas (Website,Microserviçoes e APIS) para realizar uma compra de imóvel.
 
   Cenário: Visualização de Imóveis Disponíveis
     Dado que o usuário está na página inicial
