@@ -15,27 +15,27 @@ Funcionalidade: Compra de Imóveis Online
     Então o usuário deve ver uma lista de imóveis naquela localização
 
   Cenário: Solicitação de Informações sobre um Imóvel
-    Dado que o usuário visualiza os detalhes de um imóvel
-    Quando o usuário clica no botão "Solicitar Informações"
+    Dado que o usuário visualiza os detalhes de um imóvel via api ou website
+    Quando o usuário clica/requerir  "Solicitar Informações"
     Então o sistema deve enviar uma notificação à imobiliária responsável
     E o usuário deve receber uma confirmação da solicitação
 
   Cenário: Financiamento de Imóvel
     Dado que o usuário está interessado em financiar um imóvel
-    Quando o usuário seleciona a opção de financiamento
+    Quando o usuário seleciona a opção de financiamento via api ou website
     E fornece informações financeiras necessárias
     Então o sistema deve iniciar o processo de aprovação de financiamento com o banco
 
   Cenário: Integração com Bancos Externos
     Dado que o sistema está em operação
-    Quando um cliente inicia um processo de financiamento
+    Quando um cliente requere/inicia um processo de financiamento via api ou website
     Então o sistema deve integrar-se com o banco externo para avaliação de crédito
     E o resultado da avaliação de crédito deve ser registrado no sistema
 
   Cenário: Performançe do Website, Apis e Microserviços
     Dado que o sistema está em operação em todo o Brasil
     Quando o volume de operações aumenta significativamente
-    Então o sistema deve manter a estabilidade e o desempenho
+    Então o sistema deve manter a estabilidade e o desempenho das apis e websites
     E não deve haver interrupções no serviço
 
 
