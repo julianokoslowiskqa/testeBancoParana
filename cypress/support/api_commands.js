@@ -1,6 +1,7 @@
 // Arquivo: commands.js
 const API_URL = Cypress.env('API_BASE_URL')
 
+
 Cypress.Commands.add("customGetUsers", (userId) => {
     cy.api({
         method: 'GET',
@@ -15,7 +16,6 @@ Cypress.Commands.add('createUser', (userData) => {
     cy.api({
       method: 'POST',
       url: `${API_URL}`,
-
       body: userData,
     });
   });
@@ -33,4 +33,4 @@ Cypress.Commands.add('createUser', (userData) => {
       method: "DELETE",
       url: `${API_URL}/${userId}`,
     })
-  });
+  }); 

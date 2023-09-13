@@ -16,15 +16,16 @@ describe("Segunda Parte do desafio com cenários de uma API", () => {
 
   it('CT_005: Acessar o endereço e realizar requisições "POST" de um novo usuário na api.', () => {
     const newUser = {
-      name: 'Juliano Koslowisk',
-      username: 'julianokoslowisk',
-      email: 'juliano@example.com',
+      name: 'new user ',
+      username: 'newuser',
+      email: 'newuser@example.com',
     };
 
     cy.createUser(newUser)
       .then((response) => {
       expect(response.status).to.equal(201); 
       expect(response.body).to.be.an('object');
+      expect(response.body.id).to.be.equal(11);//Verifica um novo id
       expect(response.body.name).to.equal(newUser.name);
       expect(response.body.username).to.equal(newUser.username);
       expect(response.body.email).to.equal(newUser.email);

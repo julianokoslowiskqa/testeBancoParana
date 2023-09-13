@@ -8,13 +8,13 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress:report": "cypress run --record --key c253e6da-817f-446e-a601-1a6c11884474"
-    
   },
   "keywords": [],
   "author": "Juliano Koslowisk",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.1.0",
-    "cypress-plugin-api": "^2.11.1"
+    "cypress-plugin-api": "^2.11.1",
+    "faker": "^6.6.6"
   }
 }
