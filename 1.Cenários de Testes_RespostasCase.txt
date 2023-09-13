@@ -38,13 +38,6 @@ Funcionalidade: Compra de Imóveis Online
     Então o sistema deve manter a estabilidade e o desempenho
     E não deve haver interrupções no serviço
 
-  Cenário: Levantamento de Requisitos com o Cliente
-    Dado que a equipe de desenvolvimento se reúne com o cliente
-    Quando o cliente apresenta novos requisitos ou alterações
-    Então a equipe deve documentar os requisitos
-    E garantir que eles sejam incorporados ao projeto conforme necessário
-
-
 
 ##RESPOSTAS DAS PERGUNTAS APRESENTADAS##
 1.Dado esse cenário, como você iniciaria uma estratégia de teste?
