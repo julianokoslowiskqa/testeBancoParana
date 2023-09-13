@@ -1,6 +1,6 @@
 1.Dado esse cenário, como você iniciaria uma estratégia de teste?
  Resposta: Como QA eu iniciaria a estratégia de testes com algumas ações iniciais:
- 
+
 1. Entendimento do Projeto: Primeiro, é fundamental compreender bem o projeto, seus objetivos, escopo, público-alvo, e suas possíveis integrações.Neste caso como QA me aproximaria o máximo dos stakeholders(imobiliárias, clientes e bancos), equipes de desenvolvimento, arquitetos etc..com o objetivo de extratir o máximo 
 de informações que embasem o início de uma estratégia dos testes.
   
@@ -29,7 +29,7 @@ Resposta: para consegur aplicar/fomentar qualidade em toda fase de desenvolvimen
 
 1.Testes Unitários: Liguagem do desenvolvimento + combinação do Sonar para monitorar o percentual de cobertua dos testes unitários. Essas ferramentas entram como sugestão, a decisão final seria feita pelo time de desenvolvimento.
 2.Testes Funcionais(BackEnd): utilizaria Postman, Swagger e ou Insomnia para fazer as requisições e testes funcionaisdas APIS.
-3.Testes Automatizados (BackEnd): para Java utilizaria (junit+restassured) para testes de API rest, ou Javascript com o próprio cypress, ou também o postman.
+3.Testes Automatizados (BackEnd): para Java utilizaria (junit+restassured) para testes de API rest ou Javascript com o próprio cypress, ou também o postman.
 4.Testes Automáticos(Frontend):Lingugem Java utilizario o Selenium Webdriver, o Cypress e também Docker como recurso de testes em ambientes estáveis.
 5. CI/CD: utilizaria o Jenkins, githubactions ou azureDevops, na construção das pipelines e testes nos ambientes clouds e esteira.
 6.Teste de performançe: Utilizaria o Jmeter ou o K6 para promover testes de desempenho nas apis, ou grafana pra exibir os relatórios do teste.
