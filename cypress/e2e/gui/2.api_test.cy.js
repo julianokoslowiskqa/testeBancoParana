@@ -25,7 +25,7 @@ describe("Segunda Parte do desafio com cenários de uma API", () => {
       .then((response) => {
       expect(response.status).to.equal(201); 
       expect(response.body).to.be.an('object');
-      expect(response.body.id).to.be.equal(11);//Verifica um novo id
+      expect(response.body.id).to.be.equal(11);//Verifica o novo id
       expect(response.body.name).to.equal(newUser.name);
       expect(response.body.username).to.equal(newUser.username);
       expect(response.body.email).to.equal(newUser.email);
@@ -56,7 +56,7 @@ describe("Segunda Parte do desafio com cenários de uma API", () => {
             const userIdToDelete = 5;    // Escolha o id de usuário que deseja deletar 
       cy.deleteUserById(userIdToDelete)
       .then((response) => {
-        expect(response.status).to.equal(200); // Verifica se a deleção foi bem-sucedida
+        expect(response.status).to.equal(200); 
       });     
     });  
 });
