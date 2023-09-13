@@ -1,7 +1,7 @@
 ##CENÁRIOS INICIAIS A SER CONSIDERADOS DO CASE##
 Funcionalidade: Compra de Imóveis Online
 
-  Contexto: O usuário acessa o sistema para realizar uma compra de imóvel.
+  Contexto: Testar o sistema em todas as camadas (Website,Micriserviçoes e APIS) para realizar uma compra de imóvel.
 
   Cenário: Visualização de Imóveis Disponíveis
     Dado que o usuário está na página inicial
@@ -32,7 +32,7 @@ Funcionalidade: Compra de Imóveis Online
     Então o sistema deve integrar-se com o banco externo para avaliação de crédito
     E o resultado da avaliação de crédito deve ser registrado no sistema
 
-  Cenário: Escalabilidade do Sistema
+  Cenário: Performançe do Website, Apis e Microserviços
     Dado que o sistema está em operação em todo o Brasil
     Quando o volume de operações aumenta significativamente
     Então o sistema deve manter a estabilidade e o desempenho
