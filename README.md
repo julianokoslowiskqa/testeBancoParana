@@ -33,6 +33,8 @@ Este projeto é uma estrutura de teste automatizado com o objetivo feito para te
 1. Foi usado o plugin "cypress-plugin-api" que mostra com maior clareza quais requisições foram feitas nos testes de APIS
 2. O Arquivo "1.Cenários de Testes_RespostasCase" na raíz do projeto contém alguns casos de testes iniciais + as resposta de 1 a 5 escritas . 
 3. O Arquivo "2.Cenários de Testes_Automatizados" na raíz do projeto contém os cenários que foram automatizados.
+4. Não foi usado o padrão "Page Objects" ou "Page Factory".
+5. Foi Usado o recurso de "Custom Commands" do próprio cypress, que possibilita separar a lógica por trás do teste das próprias validações dos testes, deixando assim os testes mais independentes e também os arquivos com menos linhas de código, além da possibilidade de reutilizar esses comandos customizados na medida da necessidade, alterando apenas as variáveis dos testes.
 
 ## Autor
 Juliano Koslowisk Martins dos Reis
