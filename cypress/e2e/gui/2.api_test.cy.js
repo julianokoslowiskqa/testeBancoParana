@@ -33,7 +33,7 @@ describe("Segunda Parte do desafio com cenários de uma API", () => {
   });
 
   it('CT_006: Acessar o endereço e realizar requisições "PUT" em algum usuário da API.', () => {
-    const userId = 5; // ID do usuário que você deseja atualizar
+    const userId = 5; // Escolha ID do usuário que você deseja atualizar
     const updatedUserData = {
       id: userId,
       name: 'NovoNome',
@@ -42,7 +42,7 @@ describe("Segunda Parte do desafio com cenários de uma API", () => {
     }; 
       
     cy.updateUser(userId, updatedUserData)
-      .then((response) => {
+      .then((response) => { // Verifica os dados como ficou o resultado apos as alterações
         expect(response.status).to.equal(200); 
         expect(response.body).to.be.an('object');
         expect(response.body.name).to.equal(updatedUserData.name);
@@ -52,10 +52,8 @@ describe("Segunda Parte do desafio com cenários de uma API", () => {
   });
 
   
-    it('CT_007: Acessar o endereço e realizar requisições "DELETE" em algum usuário da API.', () => {
-      // Escolha o id de usuário que deseja deletar
-            const userIdToDelete = 5;
-      // Comando personalizado para deletar o usuário
+    it('CT_007: Acessar o endereço e realizar requisições "DELETE" em algum usuário da API.', () => {      
+            const userIdToDelete = 5;    // Escolha o id de usuário que deseja deletar 
       cy.deleteUserById(userIdToDelete)
       .then((response) => {
         expect(response.status).to.equal(200); // Verifica se a deleção foi bem-sucedida

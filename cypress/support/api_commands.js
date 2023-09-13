@@ -1,14 +1,12 @@
 // Arquivo: commands.js
 const API_URL = Cypress.env('API_BASE_URL')
 
-
 Cypress.Commands.add("customGetUsers", (userId) => {
     cy.api({
         method: 'GET',
         url: `${API_URL}/${userId}`,
         failOnStatusCode: false,
-    }).as('response')
-   
+    }).as('response')   
 })
 
 

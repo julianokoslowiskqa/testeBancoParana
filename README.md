@@ -30,7 +30,7 @@ Este projeto é uma estrutura de teste automatizado com o objetivo feito para te
 * Dentro do repositório na aba "Actions" foi feito a configuração CI/CD dos testes, usando paralelismo (executando os testes simultaneamente em "três" navegadores), a cada atualização de código essa esteira será ativada.
 
 ### Observações
-1. Foi usado o plugin "cypress-plugin-api" que mostra com maior clareza quais requisições foram feitas nos testes de apis
+1. Foi usado o plugin "cypress-plugin-api" que mostra com maior clareza quais requisições foram feitas nos testes de APIS
 2. O Arquivo "1-Cenarios de Teste_Resposta.txt" contém as resposta de 1 a 5 escritas . 
 3. O Arquivo "2.Cenários de Testest.txt" contém os cenários propriamente ditos que dão cobertura ao código testado.
 
