@@ -25,7 +25,7 @@ Este projeto é uma estrutura de teste automatizado com o objetivo feito para te
 ## Verificar o report gerado dos testes
 * Execute o comando `npm run cypress:report` no seu prompt de comando. Executará os testes localmente em modo headless. E irá exportar os relatórios para nuvem, para visualizar o histórico das execuções entre no link a seguir.
 
-* `Relatório Cloud `[Link do relatório](https://cloud.cypress.io/projects/9cpkcx/runs)
+* `Relatório Cloud `[Link do relatório](https://cloud.cypress.io/projects/9cpkcx/runs) , nesse report é possível obter uma visão mais detalhada das execuções do testes, e coletar bastante evidências, com vídeos, prints tempo de execução e etc... para consultar é so acessar o link anterior.
 
 * Dentro do repositório na aba "Actions" foi feito a configuração CI/CD dos testes, usando paralelismo (executando os testes simultaneamente em "três" navegadores), a cada atualização de código essa esteira será ativada.
 
