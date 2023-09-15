@@ -1,23 +1,20 @@
 /// <reference types="Cypress" />
 
 Cypress.Commands.add('clickbuttons', () => {
-  cy
-  .get('.button')
-  .not('.alert,.success')
-  .should('be.visible')
-  .click()
+  cy.get('.button')
+    .not('.alert,.success')
+    .should('be.visible')
+    .click()
 
-  cy
-  .get('.button')
-  .filter('.alert')
-  .should('be.visible')
-  .click()
+  cy.get('.button')
+    .filter('.alert')
+    .should('be.visible')
+    .click()
 
-  cy
-  .get('.button')
-  .filter('.success')
-  .should('be.visible')
-  .click()
+  cy.get('.button')
+    .filter('.success')
+    .should('be.visible')
+    .click()
 })
 
 //Função personalizada para clicar no botão "edit" em uma linha específica
