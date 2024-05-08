@@ -13,8 +13,11 @@
   "author": "Juliano Koslowisk",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.1.0",
+    "cypress": "^13.8.1",
     "cypress-plugin-api": "^2.11.1",
     "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "save": "^2.9.0"
   }
 }
