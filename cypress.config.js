@@ -6,8 +6,9 @@ module.exports = defineConfig({
   },
   experimentalSessionAndOrigin: true,
   e2e: {
-    setupNodeEvents(on, config) {},
-    baseUrl: 'https://the-internet.herokuapp.com',
-    projectId: '9cpkcx',
+    setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
   },
+},
+  
 })

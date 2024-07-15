@@ -11,7 +11,7 @@ describe('Primeira parte do desafio automação de interface web', () => {
 
   it('CT_002: Acessar a aplicação e clicar em todos os botões "Edit" apresentado na tela', () => {
     for (let rowIndex = 1; rowIndex < 11; rowIndex++) {
-      cy.clickEditButtonInRow(rowIndex);
+      cy.clickEditButtoInRow(rowIndex);
     }
   })
 
