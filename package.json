@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",    
+    "cypress:run": "cypress run",
     "allure:generate": "allure generate cypress/reports/allure-report --clean -o cypress/reports/allure-report",
     "allure:open": "allure open cypress/reports/allure-report",
     "test:allure": "npm run cypress:run && npm run allure:generate && npm run allure:open"
@@ -16,7 +16,6 @@
   "license": "ISC",
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.40.2",
-    "allure-commandline": "^2.13.8",
     "cypress": "^13.13.1",
     "cypress-mochawesome-reporter": "^3.8.2",
     "cypress-plugin-api": "^2.11.1",
